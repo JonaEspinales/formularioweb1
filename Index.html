@@ -9,27 +9,31 @@
 </head>
 
     <body>
+        
         <section class="Registro">
-            <h4>Formulario Para Registro</h4>
+        <h4>Formulario Para Registro</h4>
+        <form action="">
+        <div class="formControl"> 
             
             <input class="controls" type="text" name="ID" id="ID" placeholder="Ingrese su número de ID ">
+        
             <input class="controls" type="text" name="Nonbres" id=" Nombres" placeholder="Ingrese sus Nonbres">
             <input class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese Sus Apellidos">
             <input class="controls" type="text" name="Numero de Telefono" id="Número de Teléfono" placeholder="Ingrese su Número de Contacto">
-            <input class="controls" type="text" name="Fecha de Nacimiento" id=" Fecha de Nacimiento" placeholder="Ingrese su Fecha De Nacimiento">
+            <input class="controls" type="date" name="Fecha de Nacimiento" id=" Fecha de Nacimiento" placeholder="Ingrese su Fecha De Nacimiento">
             <input class="controls" type="email" name="Correo " id=" Correo" placeholder="Ingrese su Correo Electronico">
             <input class="controls" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su Contraseña">
-            
+            <small> Error de Emvio </small>
 
+        </div>
+        </form>
             <p>Estoy de Acuerdo com <a href="#">Terminos y condiciones</a></p>
 
-            <input class="boton" type="submit" value="Registrar">
+            <input onclick="Enviar()" class="boton" type="submit" value="Registrar">
             <p><a href="">¿Ya tengo Cuenta?</a></p>
             
         </section>
-
+        <script src="Js.js"></script>
     
     </body>
-
-
 </html>
